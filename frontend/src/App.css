@@ -1,0 +1,21 @@
+:root {
+  --bg-clr-main: #dadbd3;
+  --bg-clr-accent: #ededed;
+  --bshadow: -1px 4px 20px -6px rgba(0, 0, 0, 0.75);
+  --transition-bg: background 0.2s ease-in-out;
+  --transition-clr: color 0.2s ease-in-out;
+}
+.app {
+  display: grid;
+  place-items: center;
+  height: 100vh;
+  background-color: var(--bg-clr-main);
+}
+.app__body {
+  display: flex;
+  background-color: var(--bg-clr-accent);
+  margin-top: -50px;
+  height: 90vh;
+  width: 90vw;
+  box-shadow: var(--bshadow);
+}
